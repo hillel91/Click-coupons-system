@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>Person</title>
+</head>
+<body>
+	<h1>Person</h1>
+	<script type="text/javascript">
+		function Person(id, name, age){
+			this.id = id;
+			this.name = name;
+			this.age = age;
+			this.Hi = function(){
+				return "Hello from " + this.name;
+			}
+		}	
+		
+		
+		var Person1 = new Person(101,"Gad", 20);
+		var Person2 = new Person(102, "Shlomi", 15);
+		console.log(Person1);
+		console.log(Person1.Hi());
+		console.log(Person2);
+		console.log(Person2.Hi());
+	</script>
+</body>
+</html>

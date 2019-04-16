@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>File 10-objects: 2</title>
+</head>
+<body>
+	<h1>OBjects - Normal</h1>
+	<script type="text/javascript">
+		function Rectangle(length, width){
+			this.length = length;
+			this.width = width;
+			this.getArea = function(){
+				return this.length*this.width;
+			}
+		}		
+		
+		var rectangle1 = new Rectangle(7,3);
+		var rectangle2 = new Rectangle(5,3);
+		console.log(rectangle1);
+		console.log(rectangle1.getArea());
+		console.log(rectangle2);
+		console.log(rectangle2.getArea());
+	</script>
+</body>
+</html>

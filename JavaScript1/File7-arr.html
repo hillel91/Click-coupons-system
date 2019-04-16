@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>File 6 - arr</title>
+</head>
+<body>
+	<h1>arr in JS</h1>
+	<script type="text/javascript">
+		var arr = [ 2, 3, 5, 8 ];
+		console.log(arr);
+		arr.push(12);
+		console.log(arr);
+		arr[10] = 100;
+		console.log(arr);
+		arr[arr.length] = 18;
+		console.log(arr);
+		
+		//More kind of array innitializing. The length is 10
+		var arr2 = new Array(10);
+		arr2[0]=2;
+		arr2[1]=4;
+		arr2[2]=6;
+		arr2.push(5); //add element to the end of the array
+		console.log(arr2.length);
+		
+		//More kind of array innitializing. but!! now the length is 3
+		var arr3 = new Array(10, 3, 6);
+		console.log(arr3.length);
+		
+		//You can enter which type you want
+		var arr4 = new Array(2, 7);
+		console.log(arr4);
+		
+		var arr5 = new Array(10);
+		for (var i=0; i<arr5.length; i++){
+			arr[i]=Math.floor(Math.random() * 10);
+		}
+		console.log(arr5);
+	</script>
+
+
+</body>
+</html>

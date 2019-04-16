@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>File 4-Link</title>
+
+</script>
+</head>
+<body>
+<h1>HTML Links to other Pages (Hyper links)</h1>
+<a href = "file1.html">Go to file 1</a><br>
+<a href = "file2-random">Go to file 2</a><br>
+<a href = "file3-picture">Go to file 3</a><br>
+<!--
+<a> element stands for 'anchor' and is a link to some other content
+-->
+</body>
+</html>

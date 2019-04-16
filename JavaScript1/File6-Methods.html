@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>Methods in JS</title>
+</head>
+<body>
+	<h1>File 6 - Methods in JS</h1>
+	<script type="text/javascript">
+		//global scope - runs on page load
+		
+		f1();
+		f2("Hello f2")
+		var sumOfVars = sum(3,5);
+		alert("sum Of Vars is " + sumOfVars);
+		function f1() {
+			alert("From F1");
+		}
+		
+		function f2(massage) {
+			alert(massage);
+		}
+		
+		function sum(x, y) {
+			var sum = x + y;
+			return sum;
+		}
+	</script>
+</body>
+</html>

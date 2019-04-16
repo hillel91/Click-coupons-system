@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+
+/* all background of p in the div will be painted in red */
+div > p {
+	color: red;
+}
+
+/* all background of p in the div will be painted in red */
+h3 + p {
+	background-color: blue;
+}
+
+
+
+
+</style>
+<meta charset="windows-1255">
+<title>CSS combinatores</title>
+</head>
+<body>
+
+<div>
+	<h1>Hello</h1>
+	<p>First paragraph</p>
+
+	<p>the hole p: red color</p>
+	<span><p>in the div, but isn't red because the "span" pharse</p></span>
+</div>
+<p> This paragraph isn't in the div</p>
+<p>and therefore isn't in the red color</p>
+
+<h3>
+<p> p in h3</p>
+</h3>
+<p> p immediately after h3</p>
+<p> p not immediately after h3</p>
+
+</body>
+</html>

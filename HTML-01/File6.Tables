@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>File 6-Table</title>
+
+</script>
+</head>
+<body>
+	<h1>Tables</h1>
+	<table border="1">
+	<caption>People</caption>
+	<Table>
+		<tr> <!-- Table Row -->
+			<!-- Table Headings -->
+			<th> id</th>
+			<th> Name</th>
+			<th> Age</th>
+		</tr>
+		
+		<!--Table Data -->	
+		<tr>
+			<td>101</td>
+			<td>Avi</td>
+			<td>15</td>	
+		</tr>	
+		<tr>
+			<td>102</td>
+			<td>Baruch</td>
+			<td>29</td>	
+		</tr>	
+		<tr>
+			<td>103</td>
+			<td>Shlomo</td>
+			<td>25</td>	
+		</tr>	
+</body>
+</html>

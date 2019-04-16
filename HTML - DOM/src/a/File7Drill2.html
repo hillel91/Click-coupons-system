@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>File 6 - Drill</title>
+</head>
+<body>
+	<h1>Drill</h1>
+	<div id = "div1">
+	<input>
+	<br>
+	<input>
+	<br>
+	<input>
+	<br>
+	</div>
+	<br>
+	<select id ="select1">
+	<option value="blue">Blue</option>
+	<option value="yellow">Yellow</option>
+	<option value="green">Green</option>
+	<option value="red">Red</option>
+	</select>
+	<button onclick="changeColor();">Change color</button>
+	
+	
+	<script type="text/javascript">
+		function changeColor(){
+			var firstDiv = document.getElementById("div1");
+			var InputTagArray = firstDiv.getElementsByTagName("input");
+			var color = document.getElementById("select1").value;
+			for(var i=0; i<InputTagArray.length; i++){
+				InputTagArray[i].style.backgroundColor = color;
+			}
+		}
+		
+	</script>
+
+</body>
+</html>

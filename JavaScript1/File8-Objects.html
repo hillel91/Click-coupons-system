@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>File 8 - Objects</title>
+</head>
+<body>
+	<h1>Objects in JS</h1>
+	<script type="text/javascript">
+		var x = 5;
+		var obj = {}; // Initialize object by " = {} "
+		console.log(obj);
+		
+		var person = {};
+		person.id = 101;
+		person.name = "David";
+		person.age = 27
+		persom.sayHi = function(){
+			console.log("Hello from " + this.name);
+		}
+		console.log(person);
+		person.sayHi();
+	</script>
+
+
+</body>
+</html>

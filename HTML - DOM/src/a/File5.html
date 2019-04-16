@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>HTML - DOM</title>
+</head>
+<body>
+	<h1>File 5: HTML - DOM</h1>
+	<a href="http://google.com">Google</a>
+	<script type="text/javascript">
+	var rootElement = document.documentElement;
+	console.log(rootElement);
+	
+	var head = rootElement.firstChild;
+	console.log(head.tagName);
+	
+	//The new line between </head> and <body>, it is a text
+	var text =  head.nextSibling;
+	console.log(text.tagName);
+	
+	var body = text.nextSibling;
+	console.log(body.tagName);
+	
+	var varbodyVersion2 = head.nextSibling.nextSibling;
+	console.log(body.tagName);
+	/*
+	Option 2 is put <body> immediatly after </head>. Like this: </head><body>
+	then you don't need the "var text"
+	*/
+	
+	var h1 = body.firstChild.nextSibling; // body.firstChild is the empty between <body> to <h1>
+	console.log(h1.tagName + ": " + h1.firstChild.nodeValue);//to see what h1 contains
+	console.log(h1.tagName + ": " + h1.innerHTML);//option 2 to see what h1 contains	
+	h1.innerHTML = "This is a new heading";
+	console.log(h1.tagName + ": " + h1.innerHTML);
+	
+	</script>
+</body>
+</html>

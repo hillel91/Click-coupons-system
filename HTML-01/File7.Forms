@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="windows-1255">
+<title>File 7-Forms</title>
+<script type="text/javascript">
+function regist(){
+		alert("Success"); //alert uset to open a window
+}
+
+</script>
+
+</head>
+<body>
+	<h1>Forms</h1>
+	<form action="">
+	<label for="id">ID</label><br> 
+	<!-- "for=.." and then if you press on the label you go right to the field -->
+	<input name="id" id="id"><br><br>
+	
+	<label for="name">Name</label><br>
+	<input name="name"><br><br>
+	
+	<label>Age</label><br>
+	<input name="Age"><br>
+	
+	<br>
+	
+	<button onclick="regist()"; type="submit">Submit</button>
+	<button type="reset">Reset</button>
+	</form>
+	
+</body>
+</html>

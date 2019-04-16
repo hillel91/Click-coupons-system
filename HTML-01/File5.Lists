@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>File 5-Lists</title>
+
+</script>
+</head>
+<body>
+	<h1>Lists</h1>
+	<h3>Ordered list</H3>
+	<ol>
+		<li>Open Eclipse</li>
+		<li>Go to the Browser</li>
+		<li>Open Studio Click</li>
+	</ol>
+	<br><br>
+	<h3>Unordered list</H3>
+	<ul>
+		<li>Red</li>
+		<li>Blue</li>
+		<li>Yello</li>
+</body>
+</html>
