@@ -10,7 +10,7 @@ import exceptions.TableCreateException;
 public class CreateTables {
 
 	public static void main(String[] args) {
-		int a=4;
+		
 		String url = "jdbc:derby://localhost:1527/dbCompany";
 		try (Connection con = DriverManager.getConnection(url + ";create=true");
 				Statement stmt = con.createStatement();) {
